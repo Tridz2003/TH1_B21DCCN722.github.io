@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống thi trắc nghiệm</title>
+    <link rel="stylesheet" href="maininput.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thông tin cá nhân</h1>
+        <form id="info-form">
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname" required><br>
+
+            <label for="birthdate">Ngày tháng năm sinh:</label>
+            <input type="date" id="birthdate" name="birthdate" required><br>
+
+            <label for="student-id">Mã sinh viên:</label>
+            <input type="text" id="student-id" name="student-id" required><br>
+
+            <label for="class">Lớp:</label>
+            <input type="text" id="class" name="class" required><br>
+
+            <button type="button" onclick="startQuiz()">Bắt đầu thi</button>
+        </form>
+    </div>
+    <script src="maininput.js"></script>
+</body>
+</html>
